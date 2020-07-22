@@ -1,0 +1,59 @@
+<html> 
+
+<head>
+  <meta charset="utf-8">
+  <title>Wen</title>
+  <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=10.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+</style>
+
+</head>
+
+<body>
+
+
+  <div class="main">
+
+    <div class="scroll">
+
+      <div id="name"><a>About</a></div>
+
+      <div class="item">
+         <a class="blurb">Wen is a binchass who finds gold in the oddest places hit her up at 022-367-3456, i repeat that's 022-367-3456 and if u cant catch her you can always leave a msg.</a>
+         <!-- <img class="image" src="assets/wen.JPG"> -->
+      </div>
+
+    </div>
+
+<div class="wrap">
+    
+    <div id="about"><a href="index.html">Wen</a></div>
+
+    <div class="largerimage">
+    </div>
+    <div class="caption">
+      <p></p>
+    </div>
+
+</div>
+
+</body>
+
+  <script type="text/javascript">
+   
+    $(".item").click(function(){
+      let specific = $(this).clone();
+      $(".caption").append().html(specific.attr("content"));
+      $(".largerimage").append().html(specific.removeAttr('width'));
+      $(".largerimage").find('.image').css('display', 'block');
+      $(".largerimage").find('.date').css('display', 'none');
+      $(".largerimage").find('.blurb').css('display', 'none');
+      $(".largerimage").find('.item').css('padding', '0px');
+    });
+
+  </script>
+
+</html>
