@@ -49,6 +49,7 @@ font-size:17pt;
 
 .wrap{
  width:43%;
+ height: auto;
 }
 
 .subwrap{
@@ -70,8 +71,8 @@ font-size:17pt;
  width:100%;
  height: auto;
  margin-left: auto;
- overflow: scroll;
  padding: 5px;
+ overflow: scroll;
  /*border: dotted 1pt blue;*/
 }
 
