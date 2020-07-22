@@ -39,7 +39,6 @@ font-size:17pt;
  display: none;
 }
 
-
 .scroll{
  overflow:scroll;
  height: 95vh;
@@ -50,12 +49,10 @@ font-size:17pt;
 
 .wrap{
  width:43%;
- height: auto;
 }
 
 .subwrap{
  height: 95vh;
- overflow: scroll;
 }
 
 .caption{
@@ -73,6 +70,7 @@ font-size:17pt;
  width:100%;
  height: auto;
  margin-left: auto;
+ overflow: scroll;
  padding: 5px;
  /*border: dotted 1pt blue;*/
 }
