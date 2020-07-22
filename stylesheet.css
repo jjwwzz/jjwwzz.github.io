@@ -55,6 +55,7 @@ font-size:17pt;
 
 .subwrap{
  height: 95vh;
+ overflow: scroll;
 }
 
 .caption{
@@ -73,7 +74,6 @@ font-size:17pt;
  height: auto;
  margin-left: auto;
  padding: 5px;
- overflow: scroll;
  /*border: dotted 1pt blue;*/
 }
 
